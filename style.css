@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Liter&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#Heading{
+    color: #ffcc00ff;
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin: 5px 10px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background: #39394aff;
+    align-items: center;
+    height: 100px;
+}
+li{ 
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    color: white;
+    padding: 30px 10px;
+    font-size: 1.1em;
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-decoration: none;
+    transition: .6s;
+}
+a:hover{
+    color: #ffcc00;
+   
+}
+.click{
+    height: 40px;
+    border-radius: 100px;
+    width: 80px;
+    font-size: .9em;
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-decoration: none;
+    background:#ffcc00;
+    color: #39394aff;
+    padding: 0px 10px;
+}
+.navi{
+    margin-top: 10px;
+}
+.content{
+    color: white;
+    background: rgb(42, 42, 64);
+    height:101vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    font-size: 25pt;
+    margin-top: 55pt;
+    font-family: "Noto Sans Kannada", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+header{
+    position: fixed;
+    width: 100%;
+}
